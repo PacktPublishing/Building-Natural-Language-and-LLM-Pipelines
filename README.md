@@ -25,29 +25,37 @@ Laura Funderburk</p>
 <img src="./assets/B21806_Cover_V2-04.png" alt="Building Natural Language and LLM Pipelines, First Edition" height="256px" align="right">
 </a>
 
-Building Natural Language Pipelines guides you through mastering LLM-powered applications using Haystack by deepset. From understanding Large Language Models to implementing production-ready NLP pipelines, this book covers it all.
-You'll explore LLMs, learn to optimize their performance, and dive deep into the Haystack framework. Through hands-on projects, you'll build applications ranging from question-answering systems to sentiment analysis and semantic search engines. You'll learn to leverage Haystack's components and create custom ones. The book teaches you to package applications with Docker, enhance them with custom APIs, and apply best practices for scalable, well-documented projects. Real-world case studies demonstrate practical applications of these concepts.
-By the end, you'll confidently design, implement, and deploy sophisticated NLP pipelines for various language processing challenges, equipping you with essential skills for building powerful, scalable NLP applications.
+**Develop production-ready NLP and LLM pipelines with Haystack using strict tool contracts, and orchestrate context-aware, observable RAG and agentic workflows with LangGraph for scalable, customizable AI applications.**
+
+Modern LLM applications often break in production due to brittle pipelines, loose tool definitions, and noisy context. This book shows you how to build production-ready, context-aware systems using Haystack and LangGraph. You’ll learn to design deterministic pipelines with strict tool contracts and deploy them as microservices. Through structured context engineering, you’ll orchestrate reliable agent workflows and move beyond simple prompt-based interactions.
+You'll start by understanding LLM behavior—tokens, embeddings, and transformer models—and see how prompt engineering has evolved into a full context engineering discipline. Then, you'll build retrieval-augmented generation (RAG) pipelines with retrievers, rankers, and custom components using Haystack’s graph-based architecture. You’ll also create knowledge graphs, synthesize unstructured data, and evaluate system behavior using Ragas and Weights & Biases. In LangGraph, you’ll orchestrate agents with supervisor-worker patterns, typed state machines, retries, fallbacks, and safety guardrails.
+By the end of the book, you’ll have the skills to design scalable, testable LLM pipelines and multi-agent systems that remain robust as the AI ecosystem evolves.
+
+
 </details>
 <details open>
   <summary><h2>Key Learnings</summary>
 <ul>
 
-<li>Understand LLMs and select the right one for your NLP tasks</li>
+<li>Build structured retrieval pipelines with Haystack</li>
 
-<li>Master techniques for interacting with and optimizing LLMs</li>
+<li>Apply context engineering to improve agent performance</li>
 
-<li>Design and implement end-to-end NLP pipelines using Haystack</li>
+<li>Design and implement robust end-to-end NLP and LLM pipelines using Haystack</li>
 
-<li>Build custom components to extend Haystack's functionality</li>
+<li>Track cost and quality with Ragas and Weights & Biases</li>
 
-<li>Create production-ready applications with proper packaging and APIs</li>
+<li>Implement retries, circuit breakers, and observability</li>
 
-<li>Implement real-world NLP projects like Q&A systems and search engines</li>
+<li> Deploy REST APIs using FastAPI and Hayhooks</li>
 
-<li>Optimize NLP pipeline performance and mitigate common challenges</li>
+<li>Serve pipelines as LangGraph-compatible microservices</li>
 
-<li>Stay updated with future trends in NLP and LLM applications</li>
+<li>Use LangGraph to orchestrate multi-agent workflows</li>
+
+<li>Implement real-world NLP projects that use NER, text classification and sentiment analysis as agentic tools</li>
+
+<li>Design sovereign agents for high-volume local execution</li>
 
 </ul>
 
@@ -131,7 +139,7 @@ By the end, you'll confidently design, implement, and deploy sophisticated NLP p
 <details>
   <summary><h2>Get to know Authors</h2></summary>
 
-_Laura Funderburk_ Laura Funderburk works as a Developer Advocate for Ploomber, an organization focused on improving the MLOps lifecycle. As a Developer Advocate, Laura combines her passion for MLOps, SQL, and data engineering, with her love for community outreach. Prior to this, Laura held positions as a Data Scientist and DevOps engineer in a variety of settings, including academia, non-for-profit and private sectors. Laura obtained a Machine Learning Engineering certification from the University of California San Diego, and a Bachelor of Mathematics from Simon Fraser University. Since the introduction of Large Language Models, Laura has dedicated her time to learning how to package, productionize and automate data extraction, processing and retrieval through LLMs and open-source packages, and has found a framework she loves in Haystack. When not immersed in building pipelines and engaging with the open-source community, Laura trains Brazilian Jiu-jitsu.
+_Laura Funderburk_ Laura Funderburk is Developer Relations and Community Lead at AI Makerspace, where she specializes in production-grade AI systems using large language models, RAG pipelines, and agentic workflows. With a background in AI operations, machine learning engineering, and developer advocacy, she has built scalable NLP tools across academia, non-profit, and private sectors. A frequent speaker at PyCon US and AI By the Bay, Laura is also a skilled Python engineer and technical author. She holds a Bachelor’s in Mathematics from Simon Fraser University and received the prestigious Terry Fox Gold Medal for resilience and community leadership. She remains active in open-source, mentorship, and outreach, helping engineers build reliable LLM applications through writing, teaching, and hands-on projects.
 
 
 
