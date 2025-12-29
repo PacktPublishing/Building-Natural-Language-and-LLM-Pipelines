@@ -1,6 +1,6 @@
 <h1 align="center">
 Building Natural Language and LLM Pipelines, First Edition</h1>
-<p align="center">This is the code repository for <a href ="building-natural-language-and-llm-pipelines-first-edition"> Building Natural Language and LLM Pipelines, First Edition</a>, published by Packt.
+<p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-ca/product/building-natural-language-and-llm-pipelines-9781835467008"> Building Natural Language and LLM Pipelines, First Edition</a>, published by Packt.
 </p>
 
 <h2 align="center">
