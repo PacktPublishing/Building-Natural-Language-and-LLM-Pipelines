@@ -4,7 +4,7 @@ Building Natural Language and LLM Pipelines, First Edition</h1>
 </p>
 
 <h2 align="center">
-An introduction to Haystack by Deepset
+Build production-grade RAG, tool contracts, and context engineering with Haystack and LangGraph
 </h2>
 <p align="center">
 Laura Funderburk</p>
