@@ -62,6 +62,40 @@ By the end of the book, you’ll have the skills to design scalable, testable LL
   </details>
 
 <details open>
+  <summary><h2>Requirements for this book</summary>
+
+Clone the repository
+
+```bash
+git clone https://github.com/PacktPublishing/Building-Natural-Language-Pipelines.git
+
+cd Building-Natural-Language-Pipelines/
+
+```
+
+Each chapter contains a `pyproject.toml` file with the folder's dependencies. **(Recommended) Open each folder in a new VS Code window.**
+
+1. **Install [uv](https://docs.astral.sh/uv/getting-started/installation/):**
+	```sh
+	pip install uv
+	```
+2. **Change directories into the folder**
+3. **Install dependencies:**
+	```sh
+	uv sync
+	```
+4. **Activate the virtual environment:**
+	```sh
+	source .venv/bin/activate
+	```
+5. **Select the virtual environment as the Jupyter kernel:**
+	- Open any notebook.
+	- Click the kernel picker (top right) and select the `.venv` environment.
+
+  </details>
+
+
+<details open>
   <summary><h2>Chapters</summary>
 
 
@@ -127,39 +161,6 @@ By the end of the book, you’ll have the skills to design scalable, testable LL
 
 </details>
 
-
-<details open>
-  <summary><h2>Requirements for this book</summary>
-
-Clone the repository
-
-```bash
-git clone https://github.com/PacktPublishing/Building-Natural-Language-Pipelines.git
-
-cd Building-Natural-Language-Pipelines/
-
-```
-
-Each chapter contains a `pyproject.toml` file with the folder's dependencies. **(Recommended) Open each folder in a new VS Code window.**
-
-1. **Install [uv](https://docs.astral.sh/uv/getting-started/installation/):**
-	```sh
-	pip install uv
-	```
-2. **Change directories into the folder**
-3. **Install dependencies:**
-	```sh
-	uv sync
-	```
-4. **Activate the virtual environment:**
-	```sh
-	source .venv/bin/activate
-	```
-5. **Select the virtual environment as the Jupyter kernel:**
-	- Open any notebook.
-	- Click the kernel picker (top right) and select the `.venv` environment.
-
-  </details>
 
 
 
